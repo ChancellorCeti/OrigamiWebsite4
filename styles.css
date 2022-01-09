@@ -1,0 +1,66 @@
+.menu{
+    display:flex;
+    justify-content: space-between;
+    padding:30px;
+} 
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    flex:200px;
+    margin:10px;
+}
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.origami{
+    border-radius: 20px solid green;
+    width: 400px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:20px;
+    margin:20px;
+    background-color:rgb(221, 155, 131);
+}
+body{
+    margin:0px;
+    background-color: #5B9C9E;
+}
+.header{
+    margin:0px;
+
+}
+.bodyImage{
+    padding:10px;
+    margin:10px;
+    position:relative;
+    }
+    .bodyImage h1{
+        position:absolute;
+        color:rgb(194, 194, 199);
+        top:40%;
+        left:50%;
+        transform:translate(-50%,-50%)
+    }
+    .bodyImage h3{
+        position:absolute;
+        color:rgb(194, 194, 199);
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+    
+    }
+    a:link{
+        color:white;
+        text-decoration:none;
+    }
+    a:visited{
+        color:white;
+        text-decoration:none;
+    }
+    .menu:hover a {
+        color:green
+    }
+    .origami:hover{
+        transform:scale(1.2)
+    }
